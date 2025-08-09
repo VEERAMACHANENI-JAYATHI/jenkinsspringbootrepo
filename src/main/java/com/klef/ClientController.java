@@ -15,7 +15,7 @@ public String home()
 	@GetMapping("/demo")
 	public String demo()
 	{
-		return "Deploy Jenkins";
+		return "Jenkins erp";
 	}
 	@GetMapping("/test")
 	public String test()
