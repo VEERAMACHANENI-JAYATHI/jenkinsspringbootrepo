@@ -15,6 +15,11 @@ public String home()
 	@GetMapping("/demo")
 	public String demo()
 	{
-		return "Jenkins Demo";
+		return "Deploy Jenkins";
+	}
+	@GetMapping("/test")
+	public String test()
+	{
+		return "Deploy Spring Boot using Jenkins";
 	}
 }
