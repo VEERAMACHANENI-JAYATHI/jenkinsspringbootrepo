@@ -22,4 +22,9 @@ public String home()
 	{
 		return "Deploy Spring Boot using Jenkins";
 	}
+	@GetMapping("/test1")
+	public String test1()
+	{
+		return "Deploy Spring Boot using Jenkins";
+	}
 }
